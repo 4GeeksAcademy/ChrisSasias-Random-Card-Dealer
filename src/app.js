@@ -13,7 +13,7 @@ function randomCard() {
   const color = suit === "♦" || suit === "♥" ? "red" : "black";
 
   document.querySelector(".top-suits").innerHTML = suit;
-  document.querySelector(".bottom-suits").
+  document.querySelector(".bottom-suits").innerHTML = suit;
   document.querySelector(".number").innerHTML = numbers[randomNumber];
 
   const card = document.querySelector(".card");
